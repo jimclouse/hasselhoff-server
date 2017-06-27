@@ -1,0 +1,20 @@
+{
+  "name": "Hasselhoff-Server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "source etc/dev.env && ./node_modules/nodemon/bin/nodemon.js ./server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.3",
+    "mssql": "4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  },
+  "engines": {
+    "node": "6.11.0"
+  }
+}
